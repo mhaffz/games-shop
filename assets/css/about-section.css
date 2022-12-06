@@ -1,0 +1,28 @@
+ul.brands-list {
+    margin-top: 16px;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.about-section {
+    padding: 24px 0;
+}
+
+.about-section h2 {
+    margin-bottom: 16px;
+}
+
+.about-section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
