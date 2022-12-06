@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/about-section.css">
+    <link rel="stylesheet" href="./assets/css/contact-us.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,30 +27,66 @@
             <h1>Games Shop</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre a Loja</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#about">Sobre a Loja</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="about-section">
+    <section id="about" class="about-section">
         <div class="container">
             <img class="store-front" src="./assets/img/loja.jpg" alt="Fachada da Loja GAMES SHOP">
             <div>
                 <h2>Sobre a Loja</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt velit pariatur vel eius incidunt earum, dolorum excepturi magni nemo nulla officia maxime dolorem voluptate nihil harum sapiente suscipit ipsam.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum repellat tempore quibusdam similique obcaecati deserunt nemo placeat velit ipsa ex, tenetur, ad hic quisquam officia odio nesciunt nam in!
-                </p>
-                <ul class="brands-list">
-                    <li><img src="./assets/img/nintendo.png" alt="Nintendo"></li>
-                    <li><img src="./assets/img/xbox.png" alt="Xbox"></li>
-                    <li><img src="./assets/img/playstation.png" alt="playstation"></li>
-                </ul>
+                <span class="about-description">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nesciunt velit pariatur vel eius incidunt earum, dolorum excepturi magni nemo nulla officia maxime dolorem voluptate nihil harum sapiente suscipit ipsam.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum repellat tempore quibusdam similique obcaecati deserunt nemo placeat velit ipsa ex, tenetur, ad hic quisquam officia odio nesciunt nam in!
+                    </p>
+                    <ul class="brands-list">
+                        <li><img src="./assets/img/nintendo.png" alt="Nintendo"></li>
+                        <li><img src="./assets/img/xbox.png" alt="Xbox"></li>
+                        <li><img src="./assets/img/playstation.png" alt="playstation"></li>
+                    </ul>
+                </span>
             </div>
         </div>
     </section>
+    <section id="contact" class="contact-us">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <input type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea placeholder="Sua Mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos Acompanhe</h3>
+                    <ul class="social-links">
+                        <li><a href="#" title="Siga-nos no Instagram"><img src="./assets/img/instagram.png" alt="Logo do Instagram"></a></li>
+                        <li><a href="#" title="Siga-nos no Facebook"><img src="./assets/img/facebook.png" alt="Logo do Facebook"></a></li>
+                        <li><a href="#" title="Visite nosso canal no Youtube"><img src="./assets/img/youtube.png" alt="Logo do Youtube"></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <address>Rua ECMAScript n° 6, Vila do Silício - San Francisco - CA</address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Games Shop - Todos os direitos reservados - 2022</p>
+        </div>
+    </footer>
 </body>
 </html>

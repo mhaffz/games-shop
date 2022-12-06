@@ -1,13 +1,15 @@
-header, section h2 {
+header, 
+section h2, 
+section h3,
+form button {
     font-family: 'Bungee', cursive;
-}
-
-body {
-    font-family: 'Roboto', sans-serif
-}
-
-header h1, section h2 {
     font-weight: normal;
+}
+
+body, 
+input, 
+textarea {
+    font-family: 'Roboto', sans-serif
 }
 
 section {
