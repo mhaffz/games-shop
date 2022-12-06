@@ -51,6 +51,10 @@ ul.social-links {
 }
 
 .contact-methods {
+    visibility: hidden; /* ScrollReveal */
+}
+
+.contact-methods {
     display: flex;
     justify-content: space-between;
 }
