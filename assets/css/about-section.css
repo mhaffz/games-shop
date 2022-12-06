@@ -13,6 +13,7 @@ ul.brands-list {
 
 .about-section {
     padding: 24px 0;
+    visibility: hidden; /* ScrollReveal */
 }
 
 .about-section h2 {
